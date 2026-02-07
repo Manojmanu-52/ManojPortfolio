@@ -216,17 +216,20 @@ nav {
 }
 
 .skill-item {
-    background-color: var(--card-bg);
-    padding: 1rem;
-    text-align: center;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: #1e1e1e;
+    color: #fff;
+    text-decoration: none; /* removes underline */
+    border-radius: 8px;
+    transition: transform 0.2s ease, background 0.2s ease;
 }
 
 .skill-item:hover {
-    transform: translateY(-5px);
-    border-color: var(--secondary);
+    background: #2a2a2a;
+    transform: translateY(-3px);
 }
 
 /* Experience Section */
