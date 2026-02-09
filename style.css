@@ -218,7 +218,7 @@ nav {
 .skill-item {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     padding: 12px;
     background: #1e1e1e;
     color: #fff;
